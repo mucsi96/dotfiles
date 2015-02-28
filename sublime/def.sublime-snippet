@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+dio.di.define('$1', function (require, module) {
+    $2
+});]]>
+	</content>
+	<tabTrigger><![CDATA[def]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>def</description>
+</snippet>

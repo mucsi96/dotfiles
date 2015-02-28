@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+it('should ${1:...}', function() {
+	$2
+});]]>
+	</content>
+	<tabTrigger><![CDATA[it]]></tabTrigger>
+	<scope>source.js</scope>
+	<description>it</description>
+</snippet>
