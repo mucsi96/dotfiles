@@ -1,19 +1,9 @@
 [user]
   name = Igor Mucsicska
   email = mucsi_96@yahoo.com
-[diff]
-  external = git_diff_wrapper
-[pager]
-  diff =
 [color]
   ui = auto
 [alias]
-  st = status -a
+  st = status
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
   ch = checkout -
-[merge]
-    tool = threesome
-[mergetool "threesome"]
-    cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
-    trustExitCode = true
-# vim: set et :
