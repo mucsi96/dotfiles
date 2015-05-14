@@ -5,13 +5,10 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Autoprefixer",
-		"Build Next",
 		"Colorsublime",
 		"Emmet",
 		"Gherkin (Cucumber) Formatter",
 		"GitGutter",
-		"Grunt",
 		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
@@ -20,10 +17,6 @@
 		"SideBarEnhancements",
 		"SnippetMaker",
 		"Soy",
-		"SublimeLinter",
-		"SublimeLinter-jshint",
-		"SublimeOnSaveBuild",
-		"Terminal",
 		"Theme - Centurion"
 	]
 }

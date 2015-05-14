@@ -1,6 +1,5 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai-Soft (SL).tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"font_options":
@@ -9,10 +8,12 @@
 	],
 	"font_size": 15,
 	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"remember_open_files": false,
 	"save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Centurion.sublime-theme",
