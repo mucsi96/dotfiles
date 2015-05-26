@@ -5,9 +5,10 @@
   ui = auto
 [alias]
   st = status
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
-  ch = checkout -
+  gl = !git --no-pager log --oneline --decorate --color --graph --all
+  glh = !git --no-pager log --oneline --decorate --color --graph --all -52
 [push]
   default = simple
 [core]
-  autocrlf = true
+  editor = \"C:\\Program Files\\Sublime Text 3\\sublime_text.exe\"
+  autocrlf = false
