@@ -12,6 +12,7 @@
 		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JavaScriptNext - ES6 Syntax",
+		"OpenRemoteServer",
 		"Package Control",
 		"Sass",
 		"Seti_UI",
@@ -19,5 +20,9 @@
 		"SnippetMaker",
 		"Soy",
 		"Theme - Centurion"
+	],
+	"repositories":
+	[
+		"https://github.com/chrisakakay/OpenRemoteServer"
 	]
 }
