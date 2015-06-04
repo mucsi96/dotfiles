@@ -11,4 +11,4 @@
   default = simple
 [core]
   editor = \"C:\\Program Files\\Sublime Text 3\\sublime_text.exe\"
-  autocrlf = false
+  autocrlf = input

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="68" columns="133" buffer_rows="1000" buffer_columns="0" init_dir="D:\" start_hidden="0" save_size="1" shell="C:\Program Files (x86)\Git\bin\sh.exe --login -i">
+	<console change_refresh="10" refresh="100" rows="66" columns="133" buffer_rows="1000" buffer_columns="0" init_dir="D:\" start_hidden="0" save_size="1" shell="C:\Program Files (x86)\Git\bin\sh.exe --login -i">
 		<colors>
 			<color id="0" r="33" g="33" b="33"/>
 			<color id="1" r="105" g="105" b="255"/>
