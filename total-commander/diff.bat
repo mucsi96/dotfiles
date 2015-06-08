@@ -1,0 +1,5 @@
+git status > "C:\tmp\tmp.diff"
+echo "" >> "C:\tmp\tmp.diff"
+git diff HEAD >> "C:\tmp\tmp.diff"
+"C:\Program Files\Sublime Text 3\sublime_text.exe" "C:\tmp\tmp.diff"
+rm "C:\tmp\tmp.diff"

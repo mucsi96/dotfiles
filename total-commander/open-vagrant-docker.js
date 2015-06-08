@@ -6,7 +6,7 @@ console.log('Docker directory: ' + path);
 function formatPath(path) {
     path = path.replace(/\\/g, '/');
     path = path.replace(/:/, '');
-    path = path.replace('c/Users/mucsi/gd/Dev', '/vagrant');
+    path = path.replace('d', '/vagrant');
     return path;
 }
 
@@ -17,7 +17,7 @@ function sshIn() {
     }).unref();
 }
 
-process.chdir('c:\\Users\\mucsi\\gd\\Dev\\docker');
+process.chdir('d:\\docker');
 
 spawn('vagrant', ['status']).stdout.on('data', function(data) {
     var output = new Buffer(data).toString('utf8')

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="66" columns="133" buffer_rows="1000" buffer_columns="0" init_dir="D:\" start_hidden="0" save_size="1" shell="C:\Program Files (x86)\Git\bin\sh.exe --login -i">
+	<console change_refresh="10" refresh="100" rows="68" columns="133" buffer_rows="1000" buffer_columns="0" init_dir="D:\" start_hidden="0" save_size="1" shell="C:\Program Files (x86)\Git\bin\sh.exe --login -i">
 		<colors>
 			<color id="0" r="33" g="33" b="33"/>
 			<color id="1" r="105" g="105" b="255"/>
@@ -21,7 +21,7 @@
 		</colors>
 	</console>
 	<appearance>
-		<font name="Consolas" size="10" bold="1" italic="0" smoothing="2">
+		<font name="Lucida Console" size="10" bold="0" italic="0" smoothing="2">
 			<color use="0" r="0" g="0" b="0"/>
 		</font>
 		<window title="Console" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="1" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>

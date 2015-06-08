@@ -1,9 +1,0 @@
-[user]
-  name = Igor Mucsicska
-  email = mucsi_96@yahoo.com
-[color]
-  ui = auto
-[alias]
-  st = status
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
-  ch = checkout -
