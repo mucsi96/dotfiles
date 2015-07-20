@@ -1,15 +1,7 @@
 {
-	"bold_folder_labels": true,
-	"caret_extra_bottom": 3,
-	"caret_extra_top": 3,
-	"caret_extra_width": 2,
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"font_options":
-	[
-		"bold"
-	],
 	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -18,12 +10,13 @@
 	[
 		"Vintage"
 	],
-	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
+	"theme": "Centurion.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_tab_stops": true
+	"use_tab_stops": true,
+	"theme": "Centurion.sublime-theme",
+	"centurion_tab_close_buttons": false,
 }

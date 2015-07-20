@@ -5,20 +5,15 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Colorsublime",
 		"Emmet",
 		"Gherkin (Cucumber) Formatter",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"Jade",
 		"JavaScriptNext - ES6 Syntax",
-		"OpenRemoteServer",
 		"Package Control",
 		"Sass",
 		"Seti_UI",
 		"SideBarEnhancements",
-		"SnippetMaker",
-		"Soy",
 		"Theme - Centurion"
 	],
 	"repositories":
