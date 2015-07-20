@@ -1,4 +1,5 @@
 {
+	"centurion_tab_close_buttons": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
@@ -16,7 +17,5 @@
 	"theme": "Centurion.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_tab_stops": true,
-	"theme": "Centurion.sublime-theme",
-	"centurion_tab_close_buttons": false,
+	"use_tab_stops": true
 }
