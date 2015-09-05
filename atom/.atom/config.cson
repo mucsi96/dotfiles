@@ -1,0 +1,22 @@
+"*":
+  "exception-reporting":
+    userId: "15eeaa5c-6190-7abe-cc7b-a09e70257a16"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "chester-atom-syntax"
+    ]
+  editor:
+    invisibles: {}
+    tabLength: 4
+  "linter-eslint":
+    useGlobalEslint: true
+    globalNodePath: "/Users/igor/.nvm/versions/io.js/v2.5.0"
+    disableWhenNoEslintrcFileInPath: true
+  "tabs-to-spaces":
+    onSave: "untabify"
+  "atom-beautify":
+    _analyticsUserId: "a8d9cf11-384c-4b5d-803d-c0d1bf7e37ba"
+  linter: {}

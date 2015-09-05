@@ -1,0 +1,15 @@
+packages: [
+  "atom-beautify"
+  "chester-atom-syntax"
+  "docblockr"
+  "file-type-icons"
+  "highlight-selected"
+  "linter"
+  "linter-eslint"
+  "open-terminal-here"
+  "package-sync"
+  "project-manager"
+  "seti-syntax"
+  "seti-ui"
+  "turbo-javascript"
+]
