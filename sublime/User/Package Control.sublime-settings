@@ -10,12 +10,14 @@
 		"Gherkin (Cucumber) Formatter",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
+		"JavaScript & NodeJS Snippets",
 		"JavaScriptNext - ES6 Syntax",
 		"Package Control",
 		"Sass",
 		"Seti_UI",
 		"SideBarEnhancements",
-		"Theme - Centurion"
+		"Theme - Centurion",
+		"Theme - Solarized Flat"
 	],
 	"repositories":
 	[

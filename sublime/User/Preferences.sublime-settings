@@ -1,9 +1,23 @@
 {
 	"centurion_tab_close_buttons": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 15,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"bower_components",
+		"tmp",
+		"dist",
+		"vendor",
+		"node_modules",
+		"_public"
+	],
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -12,9 +26,13 @@
 		"Vintage"
 	],
 	"remember_open_files": false,
+	"rulers":
+	[
+		120
+	],
 	"save_on_focus_lost": true,
 	"tab_size": 4,
-	"theme": "Centurion.sublime-theme",
+	"theme": "Solarized Flat.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true
