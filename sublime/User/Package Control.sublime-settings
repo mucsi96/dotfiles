@@ -14,9 +14,9 @@
 		"JavaScriptNext - ES6 Syntax",
 		"Package Control",
 		"Sass",
-		"Seti_UI",
 		"SideBarEnhancements",
-		"Theme - Centurion",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
 		"Theme - Solarized Flat"
 	],
 	"repositories":
