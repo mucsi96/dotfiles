@@ -1,5 +1,4 @@
 {
-	"centurion_tab_close_buttons": false,
 	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
@@ -21,7 +20,7 @@
 		"node_modules",
 		"_public"
 	],
-	"font_size": 11,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -35,7 +34,7 @@
 		120
 	],
 	"save_on_focus_lost": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Solarized Flat.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

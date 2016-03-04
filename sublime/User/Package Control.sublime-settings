@@ -14,14 +14,11 @@
 		"JavaScriptNext - ES6 Syntax",
 		"Package Control",
 		"Sass",
-		"Seti_UI",
 		"SideBarEnhancements",
 		"SnippetMaker",
 		"Theme - Centurion",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
 		"Theme - Solarized Flat"
-	],
-	"repositories":
-	[
-		"https://github.com/chrisakakay/OpenRemoteServer"
 	]
 }
