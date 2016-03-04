@@ -3,6 +3,10 @@
 	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"coverage.html"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
