@@ -15,12 +15,10 @@
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
+		"SnippetMaker",
 		"SublimeLinter",
 		"SublimeLinter-contrib-standard",
+		"Theme - Centurion",
 		"Theme - Solarized Flat"
-	],
-	"repositories":
-	[
-		"https://github.com/chrisakakay/OpenRemoteServer"
 	]
 }
