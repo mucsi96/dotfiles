@@ -2,4 +2,5 @@
 *.cache
 *.merged-ca-bundle
 *.user-ca-bundle
+*.system-ca-bundle
 OpenRemoteServer.sublime-settings
