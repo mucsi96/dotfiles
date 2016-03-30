@@ -4,7 +4,7 @@
                                           "when": "editorTextFocus" },
 { "key": "ctrl+shift+up",                "command": "editor.action.moveLinesUpAction",
                                           "when": "editorTextFocus" },
-{ "key": "shift+l",                      "command": "expandLineSelection",
+{ "key": "ctrl+l",                      "command": "expandLineSelection",
                                           "when": "editorTextFocus" },
 { "key": "ctrl+shift+d",                "command": "editor.action.copyLinesDownAction",
                                           "when": "editorTextFocus" }
