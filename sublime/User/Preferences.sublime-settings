@@ -13,6 +13,7 @@
 		".hg",
 		"CVS",
 		".sass-cache",
+		".elasticbeanstalk",
 		"bower_components",
 		"tmp",
 		"dist",
@@ -35,7 +36,7 @@
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Solarized Flat.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true
