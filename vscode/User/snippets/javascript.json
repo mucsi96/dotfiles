@@ -17,7 +17,7 @@
     "Print to console": {
         "prefix": "cl",
         "body": [
-            "console.log($1)"
+            "console.log(${object});"
         ],
         "description": "Log output to console"
     },
@@ -25,8 +25,38 @@
     "Deep print to console": {
         "prefix": "dcl",
         "body": [
-            "console.log(require('util').inspect($1, null, 10));"
+            "console.log(require('util').inspect(${object}, null, 10));"
         ],
         "description": "Deep log output to console"
+    },
+
+    "describe": {
+        "prefix": "desc",
+        "body": [
+            "describe('$1', function () {",
+            "\t$2",
+            "});"
+        ],
+        "description": "Mocha describe block"
+    },
+
+    "it": {
+        "prefix": "it",
+        "body": [
+            "it('should $1', function () {",
+            "\t$2",
+            "});"
+        ],
+        "description": "Mocha describe block"
+    },
+
+    "beforeEach": {
+        "prefix": "bef",
+        "body": [
+            "beforeEach('$1', function () {",
+            "\t$2",
+            "});"
+        ],
+        "description": "Mocha describe block"
     }
 }
