@@ -8,6 +8,7 @@
 	],
 	"folder_exclude_patterns":
 	[
+		".vscode",
 		".svn",
 		".git",
 		".hg",
@@ -21,7 +22,7 @@
 		"node_modules",
 		"_public"
 	],
-	"font_size": 11,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
