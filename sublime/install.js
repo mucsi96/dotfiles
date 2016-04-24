@@ -17,7 +17,7 @@ switch (os.platform()) {
     sublimeBinDest = '/usr/local/bin/subl'
     break
   case 'win32':
-    sublimeDest = '%USERPROFILE%\AppData\Roaming\Sublime Text 3\Packages\User'
+    sublimeDest = `${process.env.USERPROFILE}//AppData//Roaming//Sublime Text 3//Packages//User`
     break
   default:
     shell.echo(`OS ${os.platform()} is currently not supported`)
