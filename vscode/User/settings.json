@@ -4,5 +4,7 @@
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "afterDelay",
   "terminal.integrated.shell.windows": "C:\\Users\\mucsi\\repos\\dotfiles\\cmd\\cmd.bat",
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "explorer.openEditors.visible": 0,
+  "files.eol": "\n"
 }

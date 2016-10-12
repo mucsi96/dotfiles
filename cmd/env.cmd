@@ -22,3 +22,5 @@ doskey glola=git log --graph --pretty=oneline --abbrev-commit --all $*
 doskey gm=git merge $*
 doskey gmom=git merge origin/master $*
 doskey ggp=git push $*
+doskey gst=git status $*
+doskey grhh=git reset HEAD --hard $*
