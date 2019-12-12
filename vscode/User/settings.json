@@ -1,10 +1,13 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "editor.tabSize": 2,
-  "files.trimTrailingWhitespace": true,
-  "files.autoSave": "afterDelay",
-  "terminal.integrated.shell.windows": "C:\\Users\\mucsi\\repos\\dotfiles\\cmd\\cmd.bat",
   "editor.snippetSuggestions": "top",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "explorer.openEditors.visible": 0,
-  "files.eol": "\n"
+  "files.autoSave": "onWindowChange"
 }
