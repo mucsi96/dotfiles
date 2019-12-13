@@ -9,5 +9,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "explorer.openEditors.visible": 0,
-  "files.autoSave": "onWindowChange"
+  "files.autoSave": "onWindowChange",
+  "eslint.validate": ["typescript", "typescriptreact"]
 }
