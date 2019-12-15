@@ -1,18 +1,22 @@
 {
-  "editor.snippetSuggestions": "top",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "explorer.openEditors.visible": 0,
-  "files.autoSave": "onWindowChange",
-  "eslint.validate": ["typescript", "typescriptreact"],
-  "eslint.autoFixOnSave": true,
-  "editor.codeActionsOnSave": {
-	  "source.organizeImports": true
-	}
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.openEditors.visible": 0,
+    "files.autoSave": "onWindowChange",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "typescript",
+        "typescriptreact"
+    ]
 }
