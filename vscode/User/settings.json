@@ -11,5 +11,8 @@
   "explorer.openEditors.visible": 0,
   "files.autoSave": "onWindowChange",
   "eslint.validate": ["typescript", "typescriptreact"],
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}
 }
