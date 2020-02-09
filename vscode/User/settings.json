@@ -16,9 +16,10 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "typescript",
         "typescriptreact"
-    ]
+    ],
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme"
 }
