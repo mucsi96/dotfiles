@@ -20,6 +20,17 @@ sudo update-alternatives --install /usr/bin/javap javap /usr/lib/jvm/jdk-11*/bin
 java -version
 ```
 
+## Install IDEA
+
+1. Download the `.tar.gz` binary
+2. Run the following commands
+
+```
+sudo mkdir -p /usr/lib/idea
+sudo tar -xvf ./ideaIC-2019.3.3.tar.gz -C /usr/lib/idea
+/usr/lib/idea/idea-IC-193.6494.35/bin/idea.sh
+```
+
 ## Install NodeJs
 
 1. Download the `tar.xz` binary
