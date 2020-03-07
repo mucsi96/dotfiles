@@ -2,7 +2,7 @@
 
 ## Install Java
 
-1. Sign-in ot Oracle site
+1. Sign in to Oracle site
 2. Download the `.deb` binary
 3. Double click to install it
 4. Run the following commands
