@@ -24,8 +24,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontFamily": "'MonoLisa', Menlo, Monaco, 'Courier New', monospace",
-  "editor.lineHeight": 0,
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "workbench.colorTheme": "Night Owl"
+    "editor.lineHeight": 0,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Night Owl"
 }
