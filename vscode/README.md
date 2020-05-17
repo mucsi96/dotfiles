@@ -2,7 +2,7 @@
 
 For this you can use any File Icon Theme or Product Icon Theme
 
-Go to the extension and edit it's JSON. Add the following
+Go to the extension JSON definition file and add the following
 ```
   "fonts": [
     {
