@@ -31,3 +31,9 @@ Go to the extension JSON definition file and add the following
 ```
 
 Place the fonts next to this file.
+
+Enable the font in settings using
+```
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+```
