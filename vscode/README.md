@@ -1,4 +1,4 @@
-## Installing a font without admin right.
+r ## Installing a font without admin right.
 
 For this you can use any File Icon Theme or Product Icon Theme
 
