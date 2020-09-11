@@ -36,4 +36,5 @@ Enable the font in settings using
 ```
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none"
 ```
