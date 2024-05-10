@@ -1,6 +1,6 @@
 [user]
-  name = Igor Mucsicska
-  email = mucsi_96@yahoo.com
+  name = Igor Bari
+  email = mucsi96@gmail.com
 [color]
   ui = auto
 [alias]
@@ -10,5 +10,4 @@
 [push]
   default = simple
 [core]
-  editor = \"C:\\Program Files\\Sublime Text 3\\sublime_text.exe\"
   autocrlf = input
