@@ -1,5 +1,9 @@
 # Python
 
+https://realpython.com/intro-to-pyenv/
+
+## Install PyEnv
+
 https://github.com/pyenv/pyenv?tab=readme-ov-file#unixmacos
 
 ```bash
@@ -16,4 +20,29 @@ echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zsh
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 echo '#####################################################'
+```
+
+### List available versions
+
+```bash
+pyenv install --list | grep " 3\.12"
+```
+
+### List installed versions
+
+```bash
+pyenv versions
+```
+
+### Install python
+
+```bash
+pyenv install 3.12.3
+```
+
+### Create local virtual environment
+
+```bash
+pyenv virtualenv 3.12.3 project1
+pyenv local cloud-roles
 ```
