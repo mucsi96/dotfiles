@@ -43,6 +43,12 @@ pyenv install 3.12.3
 ### Create local virtual environment
 
 ```bash
-pyenv virtualenv 3.12.3 project1
+pyenv virtualenv 3.12.3 cloud-roles
 pyenv local cloud-roles
+```
+
+### Remove virtual environment
+
+```bash
+pyenv virtualenv-delete cloud-roles
 ```
