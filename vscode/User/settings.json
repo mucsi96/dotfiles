@@ -54,5 +54,10 @@
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Night Owl",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.external.windowsExec": "C:\\Users\\mucsi\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+  "terminal.external.windowsExec": "C:\\Users\\mucsi\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.automationProfile.osx": {
+    "path": "/bin/zsh"
+  }
 }
