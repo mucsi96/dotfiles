@@ -1,5 +1,25 @@
 # dotfiles
 
+## OpenCode custom commands
+
+The custom OpenCode slash commands are stored in [`opencode/commands`](opencode/commands):
+
+- [`implement-issue`](opencode/commands/implement-issue.md): update `main`, implement an open GitHub issue, and submit a pull request.
+- [`finish-pr`](opencode/commands/finish-pr.md): verify a pull request is merged, return to `main`, and check that the working tree is clean and up to date.
+
+These are command definitions, rather than `SKILL.md` skills. Their original global location is `~/.config/opencode/commands/`.
+
+To install them on another machine, run from the root of this repository:
+
+```sh
+mkdir -p ~/.config/opencode/commands
+cp opencode/commands/*.md ~/.config/opencode/commands/
+```
+
+For a project-local installation, copy the files into that project's `.opencode/commands/` directory instead.
+
+Quit and restart OpenCode after installing, then use `/implement-issue` or `/finish-pr [PR number or URL]`. Both commands require Git and an authenticated GitHub CLI (`gh auth login`), and assume the target repository uses `main` as its default branch.
+
 ## Install Java
 
 1. Sign in to Oracle site
