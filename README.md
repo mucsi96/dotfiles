@@ -16,18 +16,24 @@ On another machine, paste the prompt for the command you want into OpenCode. Eac
 **Install `/implement-issue`:**
 
 ```text
-Install the OpenCode custom slash command implement-issue globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/implement-issue.md and save its exact Markdown contents, including frontmatter, to ~/.config/opencode/commands/implement-issue.md. Create the commands directory if needed. Confirm the file was installed and remind me to quit and restart OpenCode before using /implement-issue.
+Install the OpenCode v2 custom slash command implement-issue globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/implement-issue.md and save its exact Markdown contents, including frontmatter, to ~/.config/opencode/commands/implement-issue.md. Create the commands directory if needed. Read back the saved file to verify it matches the source. Tell me to type /implement-issue in the TUI to find the command, but do not execute it during installation. OpenCode v2 reloads command files automatically.
 ```
 
 **Install `/finish-pr`:**
 
 ```text
-Install the OpenCode custom slash command finish-pr globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/finish-pr.md and save its exact Markdown contents, including frontmatter, to ~/.config/opencode/commands/finish-pr.md. Create the commands directory if needed. Confirm the file was installed and remind me to quit and restart OpenCode before using /finish-pr [PR number or URL].
+Install the OpenCode v2 custom slash command finish-pr globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/finish-pr.md and save its exact Markdown contents, including frontmatter and the literal $ARGUMENTS placeholder, to ~/.config/opencode/commands/finish-pr.md. Create the commands directory if needed. Read back the saved file to verify it matches the source. Tell me to type /finish-pr in the TUI to find the command and that it accepts a PR number or URL, but do not execute it during installation. OpenCode v2 reloads command files automatically.
 ```
 
 For a project-local installation, run OpenCode in that project and replace the destination in the prompt with `.opencode/commands/implement-issue.md` or `.opencode/commands/finish-pr.md`, respectively.
 
-Quit and restart OpenCode after installing, then use `/implement-issue` or `/finish-pr [PR number or URL]`. Both commands require Git and an authenticated GitHub CLI (`gh auth login`), and assume the target repository uses `main` as its default branch.
+### OpenCode v2 compatibility
+
+These files follow the [official OpenCode v2 command format](https://opencode.ai/v2/docs/commands/): `.md` files in `commands/`, optional YAML `description` frontmatter, and a Markdown body used as the prompt. The `$ARGUMENTS` placeholder in `finish-pr.md` is supported by v2 and must be preserved literally during installation.
+
+OpenCode v2 reloads command files automatically; no restart is required. Type `/implement-issue` or `/finish-pr` in the TUI to check discovery, then submit when ready to run the workflow. For example, `/finish-pr 123` passes `123` to the prompt. Project-local commands with the same name override global commands. On older OpenCode versions, quit and restart after installing if needed.
+
+Both commands require Git and an authenticated GitHub CLI (`gh auth login`), and assume the target repository uses `main` as its default branch.
 
 ## Install Java
 
