@@ -9,14 +9,23 @@ The custom OpenCode slash commands are stored in [`opencode/commands`](opencode/
 
 These are command definitions, rather than `SKILL.md` skills. Their original global location is `~/.config/opencode/commands/`.
 
-To install them on another machine, run from the root of this repository:
+### Install commands individually using OpenCode
 
-```sh
-mkdir -p ~/.config/opencode/commands
-cp opencode/commands/*.md ~/.config/opencode/commands/
+On another machine, paste the prompt for the command you want into OpenCode. Each prompt installs just that command; cloning this repository is not required.
+
+**Install `/implement-issue`:**
+
+```text
+Install the OpenCode custom slash command implement-issue globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/implement-issue.md and save its exact Markdown contents, including frontmatter, to ~/.config/opencode/commands/implement-issue.md. Create the commands directory if needed. Confirm the file was installed and remind me to quit and restart OpenCode before using /implement-issue.
 ```
 
-For a project-local installation, copy the files into that project's `.opencode/commands/` directory instead.
+**Install `/finish-pr`:**
+
+```text
+Install the OpenCode custom slash command finish-pr globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/finish-pr.md and save its exact Markdown contents, including frontmatter, to ~/.config/opencode/commands/finish-pr.md. Create the commands directory if needed. Confirm the file was installed and remind me to quit and restart OpenCode before using /finish-pr [PR number or URL].
+```
+
+For a project-local installation, run OpenCode in that project and replace the destination in the prompt with `.opencode/commands/implement-issue.md` or `.opencode/commands/finish-pr.md`, respectively.
 
 Quit and restart OpenCode after installing, then use `/implement-issue` or `/finish-pr [PR number or URL]`. Both commands require Git and an authenticated GitHub CLI (`gh auth login`), and assume the target repository uses `main` as its default branch.
 
