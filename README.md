@@ -6,6 +6,7 @@ The custom OpenCode slash commands are stored in [`opencode/commands`](opencode/
 
 - [`implement-issue`](opencode/commands/implement-issue.md): update `main`, implement an open GitHub issue, and submit a pull request.
 - [`finish-pr`](opencode/commands/finish-pr.md): verify a pull request is merged, return to `main`, and check that the working tree is clean and up to date.
+- [`add-screenshots`](opencode/commands/add-screenshots.md): upload screenshots through the GitHub attachments API using `gh` and embed them in an MR (GitHub pull request) description.
 
 These are command definitions, rather than `SKILL.md` skills. Their original global location is `~/.config/opencode/commands/`.
 
@@ -25,15 +26,23 @@ Install the OpenCode v2 custom slash command implement-issue globally. Fetch htt
 Install the OpenCode v2 custom slash command finish-pr globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/finish-pr.md and save its exact Markdown contents, including frontmatter and the literal $ARGUMENTS placeholder, to ~/.config/opencode/commands/finish-pr.md. Create the commands directory if needed. Read back the saved file to verify it matches the source. Tell me to type /finish-pr in the TUI to find the command and that it accepts a PR number or URL, but do not execute it during installation. OpenCode v2 reloads command files automatically.
 ```
 
-For a project-local installation, run OpenCode in that project and replace the destination in the prompt with `.opencode/commands/implement-issue.md` or `.opencode/commands/finish-pr.md`, respectively.
+**Install `/add-screenshots`:**
+
+```text
+Install the OpenCode v2 custom slash command add-screenshots globally. Fetch https://raw.githubusercontent.com/mucsi96/dotfiles/master/opencode/commands/add-screenshots.md and save its exact Markdown contents, including frontmatter and the literal $ARGUMENTS placeholder, to ~/.config/opencode/commands/add-screenshots.md. Create the commands directory if needed. Read back the saved file to verify it matches the source. Tell me to type /add-screenshots in the TUI to find the command and that it accepts a PR number or URL and screenshot paths, but do not execute it during installation. OpenCode v2 reloads command files automatically.
+```
+
+Example: `/add-screenshots 123 "screenshots/before.png" "screenshots/after.png"`. Omit the PR number to use the current conversation or branch. The command preserves the existing PR description and adds uploaded images to its Screenshots section.
+
+For a project-local installation, run OpenCode in that project and replace the destination in the prompt with `.opencode/commands/<command-name>.md`.
 
 ### OpenCode v2 compatibility
 
-These files follow the [official OpenCode v2 command format](https://opencode.ai/v2/docs/commands/): `.md` files in `commands/`, optional YAML `description` frontmatter, and a Markdown body used as the prompt. The `$ARGUMENTS` placeholder in `finish-pr.md` is supported by v2 and must be preserved literally during installation.
+These files follow the [official OpenCode v2 command format](https://opencode.ai/v2/docs/commands/): `.md` files in `commands/`, optional YAML `description` frontmatter, and a Markdown body used as the prompt. The `$ARGUMENTS` placeholders in `finish-pr.md` and `add-screenshots.md` are supported by v2 and must be preserved literally during installation.
 
-OpenCode v2 reloads command files automatically; no restart is required. Type `/implement-issue` or `/finish-pr` in the TUI to check discovery, then submit when ready to run the workflow. For example, `/finish-pr 123` passes `123` to the prompt. Project-local commands with the same name override global commands. On older OpenCode versions, quit and restart after installing if needed.
+OpenCode v2 reloads command files automatically; no restart is required. Type `/implement-issue`, `/finish-pr`, or `/add-screenshots` in the TUI to check discovery, then submit when ready to run the workflow. For example, `/finish-pr 123` passes `123` to the prompt. Project-local commands with the same name override global commands. On older OpenCode versions, quit and restart after installing if needed.
 
-Both commands require Git and an authenticated GitHub CLI (`gh auth login`), and assume the target repository uses `main` as its default branch.
+The commands require Git and an authenticated GitHub CLI (`gh auth login`). `implement-issue` and `finish-pr` assume the target repository uses `main` as its default branch. `add-screenshots` requires image files and repository write access; GitHub Enterprise Server does not support the attachments upload endpoint. It uses `gh api` directly, so it does not require the newer `--attach` flag.
 
 ## Install Java
 
