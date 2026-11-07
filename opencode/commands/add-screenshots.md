@@ -1,10 +1,12 @@
 ---
-description: Upload screenshots with the GitHub CLI attachments API and add them to an MR
+description: Capture screenshots of the changes and add them to the MR description
 ---
 
-Using the gh CLI attachments API, add screenshots to the MR (pull request on GitHub).
+Review the changes, capture screenshots that clearly demonstrate the affected UI or behavior, and add them to the MR description (pull request on GitHub) using the gh CLI attachments API.
 
-Use $ARGUMENTS for the PR number or URL and screenshot paths, with optional captions. Otherwise identify the PR and screenshots from the current conversation or the current branch using gh. Ask for clarification if the target PR or screenshots are ambiguous or missing.
+Use $ARGUMENTS for the PR number or URL and optional screenshot paths and captions. Otherwise identify the PR from the current conversation or the current branch using gh. Ask for clarification if the target PR is ambiguous or missing.
+
+Inspect the PR diff to identify the relevant screens and user flows. Unless suitable screenshots are supplied, run the application using the project's documented setup and capture the changed UI or behavior with available browser or screenshot tools. Include before/after views when useful, and use concise captions explaining what each screenshot demonstrates. If there are no visually demonstrable changes or capturing screenshots is blocked, explain the reason rather than creating unrelated images.
 
 Resolve the PR's base repository, number, URL, and existing body using gh. Use that repository explicitly for all API calls, including when the PR comes from a fork. Check gh authentication and confirm each screenshot exists, is readable, and has an image MIME type. This upload endpoint requires repository write access and is not supported on GitHub Enterprise Server.
 
